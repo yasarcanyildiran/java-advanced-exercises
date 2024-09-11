@@ -75,7 +75,7 @@ class ExercicesConditionnelleTest {
     List.of(
       new MockCostumer(28,false,false,10),
       new MockCostumer(19,false,false,10),
-      new MockCostumer(18,false,false,5),
+      new MockCostumer(18,false,false,10),
       new MockCostumer(28,true,false,5),
       new MockCostumer(28,false,true,0),
       new MockCostumer(28,true,true,0),
