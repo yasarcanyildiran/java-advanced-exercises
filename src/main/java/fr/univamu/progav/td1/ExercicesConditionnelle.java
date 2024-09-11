@@ -36,13 +36,13 @@ public class ExercicesConditionnelle {
   // bénéficient d’un tarif réduit à 5 euros. Enfin, les personnes ayant un
   // abonnement annuel ne paient rien.
 
-  public interface Costumer {
+  public interface Customer {
     int age();
     boolean isUnemployed();
     boolean hasAnnualSubscription();
   }
 
-  public static double getPrice(Costumer costumer) {
+  public static double getPrice(Customer customer) {
     return 0;
   }
 

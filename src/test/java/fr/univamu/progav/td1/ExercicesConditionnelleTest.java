@@ -57,12 +57,12 @@ class ExercicesConditionnelleTest {
     }
   }
 
-  record MockCostumer(
+  record MockCustomer(
     int age,
     boolean isUnemployed,
     boolean hasAnnualSubscription,
     double price
-  ) implements ExercicesConditionnelle.Costumer {
+  ) implements ExercicesConditionnelle.Customer {
     @Override
     public String toString() {
       return "Âge " + age + " "
@@ -71,26 +71,26 @@ class ExercicesConditionnelleTest {
     }
   }
 
-  private List<MockCostumer> costumers =
+  private List<MockCustomer> costumers =
     List.of(
-      new MockCostumer(28,false,false,10),
-      new MockCostumer(19,false,false,10),
-      new MockCostumer(18,false,false,10),
-      new MockCostumer(28,true,false,5),
-      new MockCostumer(28,false,true,0),
-      new MockCostumer(28,true,true,0),
-      new MockCostumer(18,true,false,5),
-      new MockCostumer(18,false,true,0),
-      new MockCostumer(18,true,true,0),
-      new MockCostumer(15,false,false,5),
-      new MockCostumer(15,true,false,5),
-      new MockCostumer(15,false,true,0),
-      new MockCostumer(15,true,true,0)
+      new MockCustomer(28,false,false,10),
+      new MockCustomer(19,false,false,10),
+      new MockCustomer(18,false,false,10),
+      new MockCustomer(28,true,false,5),
+      new MockCustomer(28,false,true,0),
+      new MockCustomer(28,true,true,0),
+      new MockCustomer(18,true,false,5),
+      new MockCustomer(18,false,true,0),
+      new MockCustomer(18,true,true,0),
+      new MockCustomer(15,false,false,5),
+      new MockCustomer(15,true,false,5),
+      new MockCustomer(15,false,true,0),
+      new MockCustomer(15,true,true,0)
       );
 
   @Test
   void getPriceTest() {
-    for (MockCostumer costumer : costumers) {
+    for (MockCustomer costumer : costumers) {
       double price = ExercicesConditionnelle.getPrice(costumer);
       assertEquals(costumer.price, price,
         "prix incorrect dans le cas :  " + costumer);
