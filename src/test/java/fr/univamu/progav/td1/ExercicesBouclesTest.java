@@ -21,7 +21,12 @@ class ExercicesBouclesTest {
     Person mother,
     Person father,
     List<Person> children
-  ) implements Person {}
+  ) implements Person {
+    @Override
+    public String toString() {
+      return this.name;
+    }
+  }
 
   private static final Person alfa =
     new MockPerson(78,"Alfa",true,null,null, new ArrayList<>());
