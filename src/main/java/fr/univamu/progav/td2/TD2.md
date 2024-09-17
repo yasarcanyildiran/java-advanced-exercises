@@ -63,14 +63,55 @@ ayant appelé la méthode.
 Ces actions permettent d'exécuter le programme pas-à-pas, plus ou moins 
 finement, en inspectant les valeurs des variables. 
 
+
 Exercice 1
+==========
+
+Ce petit exercice vous permet de prendre en main le débugger d'IntelliJ.
+
+- Vérifier que la méthode exécutable `main` de la classe `Main` (fichier `fr.
+univamu.progav.Main.java`) appelle bien la méthode `exoDebug` d'une instance de 
+  la classe `DebuggerTutorial` (sinon appeler l'enseignant).
+- Exécuter le programme (tâche gradle run). Le programme doit afficher :
+```
+In method f.
+In method g.
+The end.
+```
+- Placer un *breakpoint* sur la première 
+  ligne de la méthode 'main' (comment ? lire ci-dessus). Relancer le programme 
+  en mode debug (bouton ![debug](../../../../../resources/debug.png) en haut 
+  à droite). À l'issue de la compilation, vous obtiendrez l'ouverture de la 
+  vue du debugger.
+- Inspecter l'objet `this`. Quelles sont ses propriétés et leurs valeurs ? 
+  Ceci correspond-il bien au programme écrit ?
+- Avancer l'exécution d'une instruction 
+  ![Passer](../../../../../resources/step-over.png). Quel est l'effet de 
+  l'instruction ? 
+- Entrer dans l'exécution de la méthode `f`
+  ![Entrer](../../../../../resources/step-into.png). Combien la pile 
+  a-t-elle de couches ? Quelles sont les valeurs de la variable `x` dans les 
+  différentes couches de la pile ?
+- Ressortir de la méthode `f`
+  ![Sortir](../../../../../resources/step-out.png). Exécuter l'instruction 
+  créant une instance de la classe `A` et vérifier son effet sur la mémoire. 
+  Quelle est la référence du nouvel objet ?
+- Sauter l'appel de la méthode `g`
+  ![Passer](../../../../../resources/step-over.png).
+- Ajouter un breakpoint après la boucle, puis reprendre l'exécution du 
+  programme ![Reprendre](../../../../../resources/resume.png).
+- Continuer jusqu'à voir le message de victoire dans le débugger. Sinon 
+  recommencer.
+
+
+Exercice 2
 ==========
 
 Dans la classe `People`, la méthode `whereIsCharlie` devrait retourner la 
 position de Charlie, 25 ans, dans la liste. Utiliser le test et le débuggeur 
 pour trouver l'erreur.
 
-Exercice 2
+Exercice 3
 ==========
 
 Dans la classe `ASimpleLoop`, la méthode `nonTerminatingSum` fait un calcul, 
@@ -78,7 +119,7 @@ qui ne termine pas. Utiliser le test et le débuggeur, pour comprendre
 pourquoi elle ne termine pas. Corriger ensuite la méthode pour que le calcul 
 s'arrête,
 
-Exercice 3
+Exercice 4
 ==========
 
 Dans la classe `Ratio`, représentant les nombres rationnels, l'addition ne 
@@ -94,7 +135,7 @@ tester l'égalité des numérateurs et des dénominateurs. Utiliser la méthode
 de test et le débuggeur pour trouver l'erreur et la corriger. 
 
 
-Exercice 4
+Exercice 5
 ==========
 
 La classe `GuessingGame` reprend la stratégie optimale pour le jeu 
