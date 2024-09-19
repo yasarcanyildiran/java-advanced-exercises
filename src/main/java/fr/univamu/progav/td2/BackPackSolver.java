@@ -28,6 +28,7 @@ public class BackPackSolver {
     }
     currentBackpack.add(allItems.get(nextItemIndex));
     List<Item> backpack2 = findBestValueBackpack(nextItemIndex+1);
+    currentBackpack.removeLast();
     return selectBestBackpack(backpack1, backpack2);
   }
 

@@ -79,7 +79,8 @@ In method g.
 The end.
 ```
 - Placer un *breakpoint* sur la première 
-  ligne de la méthode 'main' (comment ? lire ci-dessus). Relancer le programme 
+  ligne de la méthode `exoDebug` (comment ? lire ci-dessus). Relancer le 
+  programme 
   en mode debug (bouton ![debug](../../../../../resources/debug.png) en haut 
   à droite). À l'issue de la compilation, vous obtiendrez l'ouverture de la 
   vue du debugger.
