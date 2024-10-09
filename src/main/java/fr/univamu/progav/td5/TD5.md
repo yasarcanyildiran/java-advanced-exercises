@@ -12,7 +12,7 @@ du personnage recevant le coup.
 Le guerrier
 -----------
 
-- Ses attaques sont physiques : 3 points physiques et 0 point magique.
+- Ses attaques sont physiques : 3 dommages physiques et 0 dommage magique.
 - Il est costaud : il ne subit que la moitié des dommages physiques des 
   coups qu'il reçoit.
 - Il peut entrer en rage avec son action spéciale. Sa rage lui permet de 
@@ -24,7 +24,7 @@ Le guerrier
 Le mage
 -------
 
-- Ses attaques sont magiques : 4 points magiques et 0 points physique.
+- Ses attaques sont magiques : 4 dommages magiques et 0 dommage physique.
 - Il absorbe la magie : s'il reçoit un coup, il ne perd pas de vie à cause 
   des dommages magiques, au contraire, la moitié des dommages magiques du 
   coup s'annule avec les dommages physiques (par exemple, pour 5 dommages 
