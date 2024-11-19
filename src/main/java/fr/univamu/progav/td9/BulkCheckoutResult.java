@@ -1,5 +1,6 @@
 package fr.univamu.progav.td9;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public record BulkCheckoutResult(
@@ -7,6 +8,9 @@ public record BulkCheckoutResult(
   List<BookException> failedCheckouts
 ) {
 
+  public BulkCheckoutResult() {
+    this(new ArrayList<>(), new ArrayList<>());
+  }
 
   public boolean isCompletelySuccessful() {
     // TODO

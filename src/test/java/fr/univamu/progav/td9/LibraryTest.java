@@ -34,28 +34,34 @@ public class LibraryTest {
 
   @Test
   void testSingleCheckoutSuccess() throws BookException {
-    library.checkoutBook(book1);
-    assertEquals(BookStatus.BORROWED, library.getBookStatus(book1));
+    library.checkoutBook("123");
+    assertEquals(BookStatus.BORROWED, library.getBookStatus("123"));
   }
 
   @Test
   void testBulkCheckoutPartialSuccess() throws BookException {
-    library.checkoutBook(book1);
+    library.checkoutBook("123");
     Book nonExistentBook = new Book("999", "Nonexistent");
-    List<Book> booksToCheckout = List.of(book1, book2, nonExistentBook);
+    List<String> booksToCheckout = List.of("123", "456", "999");
     BulkCheckoutResult result = library.checkoutBooks(booksToCheckout);
     assertFalse(result.isCompletelySuccessful());
     assertEquals(1, result.successfulCheckouts().size());
     assertEquals(2, result.failedCheckouts().size());
     assertInstanceOf(BookUnavailableException.class, result.failedCheckouts().get(0));
     assertInstanceOf(BookNotFoundException.class, result.failedCheckouts().get(1));
-    assertEquals(book1,result.failedCheckouts().get(0).book());
-    assertEquals(nonExistentBook,result.failedCheckouts().get(1).book());
+    assertEquals(
+      "Book1 (123): book unavailable",
+      result.failedCheckouts().get(0).getMessage()
+    );
+    assertEquals(
+      "Nonexistent (999): book not found",
+      result.failedCheckouts().get(1).getMessage()
+    );
   }
 
   @Test
   void testBulkCheckoutAllSuccess() {
-    List<Book> booksToCheckout = List.of(book1, book2);
+    List<String> booksToCheckout = List.of("123", "456");
     BulkCheckoutResult result = library.checkoutBooks(booksToCheckout);
 
     assertTrue(result.isCompletelySuccessful());
