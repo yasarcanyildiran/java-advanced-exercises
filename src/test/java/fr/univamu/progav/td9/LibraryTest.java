@@ -50,7 +50,7 @@ public class LibraryTest {
     assertInstanceOf(BookUnavailableException.class, result.failedCheckouts().get(0));
     assertInstanceOf(BookNotFoundException.class, result.failedCheckouts().get(1));
     assertEquals(
-      "Book1 (123): book unavailable",
+      "Livre 1 (123): book unavailable",
       result.failedCheckouts().get(0).getMessage()
     );
     assertEquals(
