@@ -4,8 +4,8 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 
 
+@SuppressWarnings("unchecked") // autorise le cast ci-dessous.
 public class Stack<T> implements Iterable<Integer> {
-  @SuppressWarnings("unchecked") // autorise le cast ci-dessous.
   T[] values = (T[]) new Object[1000]; // Cast obligatoire, incompatibilité entre générique et tableau
   Integer firstEmptyCell = 0;
 
