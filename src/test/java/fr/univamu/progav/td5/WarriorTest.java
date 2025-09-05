@@ -1,5 +1,7 @@
 package fr.univamu.progav.td5;
 
+import fr.univamu.progav.td.td5.Blow;
+import fr.univamu.progav.td.td5.Warrior;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

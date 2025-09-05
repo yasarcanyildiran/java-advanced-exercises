@@ -1,5 +1,6 @@
 package fr.univamu.progav.td9;
 
+import fr.univamu.progav.td.td9.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

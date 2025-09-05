@@ -1,9 +1,8 @@
 package fr.univamu.progav.td6;
 
+import fr.univamu.progav.td.td6.ArrayCellLens;
+import fr.univamu.progav.td.td6.Lens;
 import org.junit.jupiter.api.Test;
-
-import java.util.ArrayList;
-import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 

@@ -1,5 +1,7 @@
 package fr.univamu.progav.td6;
 
+import fr.univamu.progav.td.td6.Box;
+import fr.univamu.progav.td.td6.Lens;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

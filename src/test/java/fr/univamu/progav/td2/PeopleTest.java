@@ -1,10 +1,11 @@
 package fr.univamu.progav.td2;
 
+import fr.univamu.progav.td.td2.People;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
-import static fr.univamu.progav.td2.People.whereIsCharlie;
+import static fr.univamu.progav.td.td2.People.whereIsCharlie;
 import static org.junit.jupiter.api.Assertions.*;
 
 class PeopleTest {

@@ -1,5 +1,6 @@
 package fr.univamu.progav.td1;
 
+import fr.univamu.progav.td.td1.BreadthFirstSearch;
 import fr.univamu.progav.td1.mock.MockTree;
 import org.junit.jupiter.api.Test;
 

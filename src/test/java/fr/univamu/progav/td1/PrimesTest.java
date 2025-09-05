@@ -1,5 +1,6 @@
 package fr.univamu.progav.td1;
 
+import fr.univamu.progav.td.td1.Primes;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;

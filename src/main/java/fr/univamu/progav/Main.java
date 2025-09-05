@@ -1,6 +1,6 @@
 package fr.univamu.progav;
 
-import fr.univamu.progav.td2.DebuggerTutorial;
+import fr.univamu.progav.td.td2.DebuggerTutorial;
 
 public class Main {
 

@@ -2,6 +2,8 @@ package fr.univamu.progav.td7;
 
 
 
+import fr.univamu.progav.td.td7.Sequence;
+
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;

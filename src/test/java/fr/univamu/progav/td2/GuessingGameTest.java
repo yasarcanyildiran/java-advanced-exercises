@@ -1,9 +1,8 @@
 package fr.univamu.progav.td2;
 
+import fr.univamu.progav.td.td2.GuessingGame;
 import org.junit.jupiter.api.Test;
 
-import static fr.univamu.progav.td2.GuessingGame.LOWER_BOUND;
-import static fr.univamu.progav.td2.GuessingGame.UPPER_BOUND;
 import static org.junit.jupiter.api.Assertions.*;
 
 class GuessingGameTest {

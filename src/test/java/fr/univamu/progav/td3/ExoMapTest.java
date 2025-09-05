@@ -1,5 +1,6 @@
 package fr.univamu.progav.td3;
 
+import fr.univamu.progav.td.td3.ExoMap;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;

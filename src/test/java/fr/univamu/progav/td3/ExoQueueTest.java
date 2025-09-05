@@ -1,5 +1,6 @@
 package fr.univamu.progav.td3;
 
+import fr.univamu.progav.td.td3.ExoQueue;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

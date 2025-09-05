@@ -1,6 +1,6 @@
 package fr.univamu.progav.td1.mock;
 
-import fr.univamu.progav.td1.BreadthFirstSearch;
+import fr.univamu.progav.td.td1.BreadthFirstSearch;
 
 import java.util.ArrayList;
 import java.util.List;

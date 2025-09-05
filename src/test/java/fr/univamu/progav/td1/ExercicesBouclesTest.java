@@ -1,16 +1,15 @@
 package fr.univamu.progav.td1;
 
+import fr.univamu.progav.td.td1.ExercicesBoucles;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 import java.util.stream.Collectors;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import static fr.univamu.progav.td1.ExercicesBoucles.Person;
+import static fr.univamu.progav.td.td1.ExercicesBoucles.Person;
 
 class ExercicesBouclesTest {
 

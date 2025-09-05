@@ -1,5 +1,6 @@
 package fr.univamu.progav.td7;
 
+import fr.univamu.progav.td.td7.Interval;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;

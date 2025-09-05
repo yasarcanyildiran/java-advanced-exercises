@@ -1,5 +1,6 @@
 package fr.univamu.progav.td2;
 
+import fr.univamu.progav.td.td2.BackPackSolver;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;

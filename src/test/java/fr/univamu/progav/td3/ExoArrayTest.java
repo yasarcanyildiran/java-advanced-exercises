@@ -1,5 +1,6 @@
 package fr.univamu.progav.td3;
 
+import fr.univamu.progav.td.td3.ExoArray;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

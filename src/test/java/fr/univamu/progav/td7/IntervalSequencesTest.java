@@ -1,8 +1,10 @@
 package fr.univamu.progav.td7;
 
+import fr.univamu.progav.td.td7.Interval;
+import fr.univamu.progav.td.td7.Sequence;
 import org.junit.jupiter.api.Test;
 
-import static fr.univamu.progav.td7.IntervalSequences.*;
+import static fr.univamu.progav.td.td7.IntervalSequences.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 class IntervalSequencesTest {

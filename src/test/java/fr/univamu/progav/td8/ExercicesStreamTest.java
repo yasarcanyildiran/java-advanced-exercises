@@ -1,16 +1,15 @@
 package fr.univamu.progav.td8;
 
-import fr.univamu.progav.td8.ExercicesStream;
+import fr.univamu.progav.td.td8.ExercicesStream;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.OptionalDouble;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import static fr.univamu.progav.td8.ExercicesStream.Person;
+import static fr.univamu.progav.td.td8.ExercicesStream.Person;
 import static org.junit.jupiter.api.Assertions.*;
 
 class ExercicesStreamTest {
