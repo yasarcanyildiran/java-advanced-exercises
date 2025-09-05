@@ -9,14 +9,14 @@ public abstract class Character {
     return false;
   }
 
-  protected int getHealth() {
+  public int getHealth() {
     // TODO
     return 0;
   }
-  protected void reduceHealth(int amount) {
+  public void reduceHealth(int amount) {
     // TODO
   }
-  protected void setHealth(int health) {
+  public void setHealth(int health) {
     // TODO
   }
 
