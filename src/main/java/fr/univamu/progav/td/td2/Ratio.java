@@ -22,7 +22,7 @@ public class Ratio {
 
   // UnsafeOf is used in test, to build a ratio without reducing it,
   // and must be used with already reduced numerator and denominator.
-  protected static Ratio unsafeOf(int num, int denom) {
+  public static Ratio unsafeOf(int num, int denom) {
     return new Ratio(num, denom);
   }
 
