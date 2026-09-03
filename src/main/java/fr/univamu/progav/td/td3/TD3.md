@@ -56,3 +56,5 @@ liste de mots.
 
 `/gradlew  test --tests fr.univamu.progav.td.td3.ExoMapTest`
 
+
+L'intégralité des tests de ce TD peut être évaluée avec la commande `./gradlew td3Test`.
