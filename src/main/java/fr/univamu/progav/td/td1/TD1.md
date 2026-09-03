@@ -1,17 +1,21 @@
+Ce fichier donnes les instructions pour le TD1. Il est au format markdown, permettant d'éditer du texte avec des instructions de formattage simples. Pour le lire, il est préférable d'activer la visualisation du document formatté, sous VS Code avec le raccourci clavier `Control Shift V`.
+
+Les tests de ce TD peuvent être évalués avec la commande `./gradlew td1Test`.
+
 Exercice 1
 ==========
 
 Ouvrir la classe `ExercicesConditionnelle`, qui comprend 4 questions. Pour 
 chaque question compléter la méthode correspondante. Tester que votre 
-solution est correcte en utilisant les tests unitaires fournis.
+solution est correcte en utilisant les tests unitaires fournis (`/gradlew  test --tests fr.univamu.progav.td.td1.ExercicesConditionnelleTest`).
 
 
 Exercice 2
 ==========
 
 Ouvrir la classe `ExercicesBoucles`, qui comprend 11 questions. Pour chaque 
-question, compléter la méthode correspondante. tester que votre solution est 
-correcte en utilisant les tests unitaires fournis.
+question, compléter la méthode correspondante. Tester que votre solution est 
+correcte en utilisant les tests unitaires fournis (`/gradlew  test --tests fr.univamu.progav.td.td1.ExercicesBouclesTest`).
 
 Exercice 3
 ==========

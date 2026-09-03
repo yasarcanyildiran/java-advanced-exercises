@@ -6,6 +6,8 @@ d'un même type.
 
 Compléter les méthodes de la classe `ExoArray`, jusqu'à validation des tests.
 
+`/gradlew  test --tests fr.univamu.progav.td.td3.ExoArrayTest`
+
 Exercice 2
 ==========
 
@@ -13,6 +15,8 @@ Une liste est une collection indicée de taille variable, contenant des
 valeurs d'un même type.
 
 Compléter les méthodes de la classe `ExoList`, jusqu'à validation des tests.
+
+`/gradlew  test --tests fr.univamu.progav.td.td3.ExoListTest`
 
 Exercice 3
 ==========
@@ -24,6 +28,8 @@ Compléter les méthodes de la classe `ExoQueue`, jusqu'à validation des tests.
 Cette classe permet l'évaluation d'expressions arithmétiques en notation 
 polonaise inversée.
 
+`/gradlew  test --tests fr.univamu.progav.td.td3.ExoQueueTest`
+
 Exercice 4
 ==========
 
@@ -32,6 +38,8 @@ unique, et optimisée pour réaliser les opération d'insertion, suppression et
 test d'appartenance. 
 
 Compléter les méthodes de la classe `ExoSet`, jusqu'à validation des tests.
+
+`/gradlew  test --tests fr.univamu.progav.td.td3.ExoSetTest`
 
 Exercice 5
 ==========
@@ -46,5 +54,5 @@ Compléter les méthodes de la classe `ExoMap`, jusqu'à validation des tests.
 Cette classe permet de compter le nombre d'occurrences de chaque mot dans une 
 liste de mots.
 
-
+`/gradlew  test --tests fr.univamu.progav.td.td3.ExoMapTest`
 
