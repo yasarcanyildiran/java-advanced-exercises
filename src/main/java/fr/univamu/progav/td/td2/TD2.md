@@ -14,6 +14,8 @@ lancer uniquement le test de l'exercice en cours. Avec gradle, on utilisera la c
 `./gradlew test --tests fr.univamu.progav.td.td2.ASimpleLoopTest.java` par exemple. Par 
 contre cela ne permet pas de lancer le débugueur.
 
+L'intégralité des tests de ce TD peut être évaluée avec la commande `./gradlew td2Test`.
+
 Exécuter un test depuis l'IDE
 -----------------------------
 
