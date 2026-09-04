@@ -62,7 +62,7 @@ cela :
 - Dans ```sumOfSizes```, créer un compteur à l'aide d'une classe anonyme, 
   puis utiliser ```forEach``` sur la séquence avec une lambda pour augmenter 
   le compteur.
-- Dans ```longestInterval```, utiliser une lambda.
+- Dans ```longestInterval```, utiliser une lambdas.
 - Vérifier votre travail avec les tests de la classe 
   ```IntervalSequencesTest```.
 

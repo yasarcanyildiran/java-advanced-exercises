@@ -35,7 +35,7 @@ Exercice 2
 ==========
 
 Définir une énumération pour les tailles des mazettes, dans un fichier 
-`TailleMazette.java`.
+`Mazette.java`.
 
 Exercice 3
 ==========

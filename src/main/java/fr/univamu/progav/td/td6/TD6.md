@@ -61,7 +61,7 @@ représenter une valeur `s` de type `S` en stockant uniquement `f(s)`. La
 méthode `get` applique automatiquement `g` pour retrouver la valeur initiale 
 (de type `S`). La méthode `set` applique automatiquement `f` pour ne stocker 
 qu'une image (de type `T`). Ainsi, nous réduisons l'espace utilisé, en 
-échange d'un coût de calcul des fonctions `f` et `g` à chaque opération.
+échange d'un coût de calcul des fonctions `f` et `g` `chaque opération.
 
 Ajouter une interface `Bijection` permettant de représenter par deux 
 méthodes les fonctions `f` et `g`.
