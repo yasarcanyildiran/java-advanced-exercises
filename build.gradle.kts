@@ -23,7 +23,8 @@ repositories {
 
 testing {
     suites {
-        val test by getting(JvmTestSuite::class) {
+//        val test by getting(JvmTestSuite::class) {
+        getByName<JvmTestSuite>("test") {
             useJUnitJupiter() 
 
             dependencies {
