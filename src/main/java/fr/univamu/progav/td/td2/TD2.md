@@ -94,7 +94,7 @@ finement, en inspectant les valeurs des variables.
 Exercice 1
 ==========
 
-Ce petit exercice vous permet de prendre en main le débugger de VS Code.
+Ce petit exercice vous permet de prendre en main le débugueur de VS Code.
 
 - Vérifier que la méthode exécutable `main` de la classe `Main` (fichier 
 `fr.univamu.progav.Main.java`) appelle bien la méthode `exoDebug` d'une instance de la classe `DebuggerTutorial` (sinon appeler l'enseignant).
@@ -127,7 +127,7 @@ The end.
   ![Passer](../../../../../../resources/debug-step-over.svg).
 - Ajouter un breakpoint après la boucle, puis reprendre l'exécution du 
   programme ![Reprendre](../../../../../../resources/debug-continue.svg).
-- Continuer jusqu'à voir le message de victoire dans le débugger. Sinon 
+- Continuer jusqu'à voir le message de victoire dans le débugueur. Sinon 
   recommencer.
 
 
@@ -135,14 +135,14 @@ Exercice 2
 ==========
 
 Dans la classe `People`, la méthode `whereIsCharlie` devrait retourner la 
-position de Charlie, 25 ans, dans la liste. Utiliser le test et le débuggeur 
+position de Charlie, 25 ans, dans la liste. Utiliser le test et le débugueur 
 pour trouver l'erreur.
 
 Exercice 3
 ==========
 
 Dans la classe `ASimpleLoop`, la méthode `nonTerminatingSum` fait un calcul, 
-qui ne termine pas. Utiliser le test et le débuggeur, pour comprendre 
+qui ne termine pas. Utiliser le test et le débugueur, pour comprendre 
 pourquoi elle ne termine pas. Corriger ensuite la méthode pour que le calcul 
 s'arrête,
 
@@ -159,7 +159,7 @@ ignore l'étape de réduction : ainsi les valeurs attendues dans les tests
 sont certainement bien définies (nous les avons réduites nous-mêmes). Enfin, 
 la méthode de test d'égalité profite de la forme réduite : il suffit de 
 tester l'égalité des numérateurs et des dénominateurs. Utiliser la méthode 
-de test et le débuggeur pour trouver l'erreur et la corriger. 
+de test et le débugueur pour trouver l'erreur et la corriger. 
 
 
 Exercice 5
@@ -172,6 +172,6 @@ indication "plus petit" ou "plus grand". Bien sûr, il s'agit de faire une
 recherche dichotomique. Ici, une erreur a été faite, et la dichotomie ne 
 termine pas toujours. Il va d'abord falloir trouver une valeur mystère pour 
 laquelle l'algorithme boucle infiniment (provoquant un dépassement de pile). 
-Ensuite, en utilisant le débuggeur et en partant avec cette valeur, il sera 
+Ensuite, en utilisant le débugueur et en partant avec cette valeur, il sera 
 possible de repérer la raison pour laquelle l'algorithme boucle ainsi. 
-Utiliser donc une fois de plus le débugger pour trouver et corriger l'erreur.
+Utiliser donc une fois de plus le débugueur pour trouver et corriger l'erreur.
