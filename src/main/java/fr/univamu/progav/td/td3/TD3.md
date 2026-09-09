@@ -6,7 +6,7 @@ d'un même type.
 
 Compléter les méthodes de la classe `ExoArray`, jusqu'à validation des tests.
 
-`/gradlew  test --tests fr.univamu.progav.td.td3.ExoArrayTest`
+`./gradlew  td3test --tests ExoArrayTest`
 
 Exercice 2
 ==========
@@ -16,7 +16,7 @@ valeurs d'un même type.
 
 Compléter les méthodes de la classe `ExoList`, jusqu'à validation des tests.
 
-`/gradlew  test --tests fr.univamu.progav.td.td3.ExoListTest`
+`./gradlew  td3test --tests ExoListTest`
 
 Exercice 3
 ==========
@@ -28,7 +28,7 @@ Compléter les méthodes de la classe `ExoQueue`, jusqu'à validation des tests.
 Cette classe permet l'évaluation d'expressions arithmétiques en notation 
 polonaise inversée.
 
-`/gradlew  test --tests fr.univamu.progav.td.td3.ExoQueueTest`
+`./gradlew  td3test --tests ExoQueueTest`
 
 Exercice 4
 ==========
@@ -39,7 +39,7 @@ test d'appartenance.
 
 Compléter les méthodes de la classe `ExoSet`, jusqu'à validation des tests.
 
-`/gradlew  test --tests fr.univamu.progav.td.td3.ExoSetTest`
+`./gradlew  td3test --tests ExoSetTest`
 
 Exercice 5
 ==========
@@ -54,7 +54,7 @@ Compléter les méthodes de la classe `ExoMap`, jusqu'à validation des tests.
 Cette classe permet de compter le nombre d'occurrences de chaque mot dans une 
 liste de mots.
 
-`/gradlew  test --tests fr.univamu.progav.td.td3.ExoMapTest`
+`./gradlew  td3test --tests ExoMapTest`
 
 
 L'intégralité des tests de ce TD peut être évaluée avec la commande `./gradlew td3Test`.
