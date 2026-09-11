@@ -1,8 +1,8 @@
 Membres du projet 
 =================
 
-- membre 1
-- membre 2
+- Yasar Can YILDIRAN
+- membre 2(existe pas)
 
 
 ## Vérifier vos exercices
